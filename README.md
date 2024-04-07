@@ -14,11 +14,25 @@
 ### **Download or update blastn database using NCBI-supplied script**
 
 
-#### **Using NCBI-supplied script**  
+### **Using NCBI-supplied script**  
 
 
+- Create a conda environment for blastn
+  
+
+```
 conda create -n blastn_db
+```
+
+
+- Activate the blastn environment
+
+   
+```
 conda activate blastn_db
+```
+
+
 copy the link of the latest blast executable from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ 
 download the executable as follows: wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.15.0+-x64-linux.tar.gz 
 extract the downloaded file as follows: tar -zxvf ncbi-blast-2.15.0+-x64-linux.tar.gz
