@@ -118,7 +118,7 @@ The file metadata.tsv looks like this:
 <p align="center">
   <img 
     src="https://github.com/asadprodhan/blastn/blob/main/NCBI_BlastDB_List_Example_AP.PNG"
- align="center" width=100% height=100% >   
+ align="center" width=50% height=50% >   
 </p>
 <p align = center>
 Figure 1: Blastn database nt files.
