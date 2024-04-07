@@ -56,11 +56,47 @@ tar -zxvf ncbi-blast-2.15.0+-x64-linux.tar.gz
 ```
 
 
-cd ncbi-blast-2.15.0+/bin and add this path to the PATH environmental variable 
-cp ./update_blastdb.pl from the ncbi-blast-2.15.0+/bin directory to the directory you want to download the blastn database
+- Navigate to the following directory
+
+
+```
+cd ncbi-blast-2.15.0+/bin
+```
+
+ 
+- Add this path to the PATH environmental variable. See how to do this in my tutorial:
+
+
+> https://github.com/asadprodhan/About-the-PATH
+
+
+- Copy the update_blastdb.pl from the ncbi-blast-2.15.0+/bin directory to the directory you want to download the blastn database
+
+
+```
+cp ./update_blastdb.pl databaseDirectory
+```
+
+
+- Run the script as follows
+
+
+```
 run ./update_blastdb.pl --decompress nt
-download will automatically start  
-you can delete the md5 files as rm -r *.md5
+```
+
+
+> Download will automatically start
+
+
+> You can delete the md5 files as follows:
+
+
+
+```
+rm -r *.md5
+```
+
 
 
 ### **Using a bash script**  
