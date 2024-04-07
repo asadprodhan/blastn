@@ -111,12 +111,10 @@ The file metadata.tsv looks like this:
 Put the metadata.tsv file and the following bash script in the directory where you want to download the blastn database
 
 
-### **Bash script to download blastn database automatically [download]**
+### **Bash script to download blastn database automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
 
 
 ```
-
-
 #!/bin/bash
 
 #metadata
