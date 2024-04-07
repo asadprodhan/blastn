@@ -7,10 +7,14 @@
 <br />
 
 
+<br />
+
+
+
 ### **Download or update blastn database using NCBI-supplied script**
 
 
-### **Using NCBI-supplied script**  
+#### **Using NCBI-supplied script**  
 
 
 conda create -n blastn_db
