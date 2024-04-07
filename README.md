@@ -103,10 +103,7 @@ rm -r *.md5
 
 
 
-- Prepare a metadata.tsv file containing the list of all nt.??.tar.gz files
-
-
-The nt.??.tar.gz files are located at 
+- Prepare a metadata.tsv file containing the list of all nt.??.tar.gz files. The nt.??.tar.gz files are located at 
 
 
 > https://ftp.ncbi.nlm.nih.gov/blast/db/
@@ -115,7 +112,23 @@ The nt.??.tar.gz files are located at
 The file metadata.tsv looks like this:
 
 
-Put the metadata.tsv file and the following bash script in the directory where you want to download the blastn database
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/blastn/blob/main/NCBI_BlastDB_List_Example_AP.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 1: Blastn database nt files.
+</p>
+
+<br />
+
+
+
+- Put the **metadata.tsv** file and the following **blastn script** in the directory where you want to download the blastn database
 
 
 ### **Bash script to download blastn database automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
