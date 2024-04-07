@@ -146,27 +146,38 @@ done < ${metadata}
 ```
 
 
-x: tells tar to extract the files
-v: “v” stands for “verbose”, listing all of the files as the decompression continues
-z: tells the tar command to uncompress/decompress the file (gzip)
-f: tells tar that a file will be assigned to work with
-pkill -9 wget # to abort the running wget download
+> x: tells tar to extract the files
 
 
-Wild card like ‘*tar.gz’ doesn’t work for ‘tar’. Because tar supplied with a “*” doesn’t only limit itself to the existing tar files in the directory but also it expands to the imaginary file names (!), for example, abc.tar.gz def.tar.gz ghi.tar.gz or 1.gz, 2.gz and 3.gz etc. Since these files are non-existence, tar can’t find them and produce ‘not found in the archive’ error. A loop function can overcome this issue when you have multiple tar files to decompress.
+> v: “v” stands for “verbose”, listing all of the files as the decompression continues
 
-for file in *.tar.gz; do tar -xvzf "$file"; done # processing multiple files in a loop fashion
+
+> z: tells the tar command to uncompress/decompress the file (gzip)
+
+
+> f: tells tar that a file will be assigned to work with
+
+
+> pkill -9 wget # to abort the running wget download
+
+
+
+> Wild card like ‘*tar.gz’ doesn’t work for ‘tar’. Because tar supplied with a “*” doesn’t only limit itself to the existing tar files in the directory but also it expands to the imaginary file names (!), for example, abc.tar.gz def.tar.gz ghi.tar.gz or 1.gz, 2.gz and 3.gz etc. Since these files are non-existence, tar can’t find them and produce ‘not found in the archive’ error. The following loop function can overcome this issue when you have multiple tar files to decompress.
+
+
+```
+for file in *.tar.gz; do tar -xvzf "$file"; done
+```
 
 
 ### **Run blastn**
 
 
-### **Blastn automated script [download]**
+### **Blastn automated script** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
+
 
 
 ```
-
-
 #!/bin/bash -i
 # ask for query file
 echo Enter your input file name including extension and hit ENTER
@@ -206,8 +217,6 @@ elif (( $SECONDS > 60 )) ; then
 else
     echo "Completed in $SECONDS seconds"
 fi
-
-
 ```
 
 
