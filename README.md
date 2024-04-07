@@ -33,9 +33,29 @@ conda activate blastn_db
 ```
 
 
-copy the link of the latest blast executable from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ 
-download the executable as follows: wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.15.0+-x64-linux.tar.gz 
-extract the downloaded file as follows: tar -zxvf ncbi-blast-2.15.0+-x64-linux.tar.gz
+- Copy the link of the latest blast executable from the following link
+
+
+> https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+
+
+- download the executable as follows
+
+
+
+```
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.15.0+-x64-linux.tar.gz
+```
+
+
+- Extract the downloaded file as follows
+
+
+```
+tar -zxvf ncbi-blast-2.15.0+-x64-linux.tar.gz
+```
+
+
 cd ncbi-blast-2.15.0+/bin and add this path to the PATH environmental variable 
 cp ./update_blastdb.pl from the ncbi-blast-2.15.0+/bin directory to the directory you want to download the blastn database
 run ./update_blastdb.pl --decompress nt
