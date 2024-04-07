@@ -220,21 +220,24 @@ fi
 ```
 
 
-The smaller the E-value, the better the match
-The higher the bit-score, the better the sequence similarity
-https://www.metagenomics.wiki/tools/blast/evalue
 
+> The smaller the E-value, the better the match
+
+
+> Ref: https://www.metagenomics.wiki/tools/blast/evalue
+
+
+> The higher the bit-score, the better the sequence similarity
 
 
 ### **Extract sequences for blastn hits**
 
 
-### **Bash script to Extract sequences for blastn hits automatically [download]**
+### **Bash script to Extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
 
 
 
 ```
-
 #!/bin/bash -i
 
 #
@@ -292,9 +295,13 @@ echo ""
 ```
 
 
-Common error
+### **Common errors and solutions**
 
-BLAST Database error: No alias or index file found for nucleotide database
+
+
+**BLAST Database error: No alias or index file found for nucleotide database**
+
+
 Check the followings:
 Blast database location in Pawsey
 /scratch/references/blastdb_update/blast-2023-07-01
@@ -303,8 +310,13 @@ Within the ‘db’ directory, there are all the indexed files such as nhr nin e
 so, the complete database path will be as follows:
 /scratch/references/blastdb_update/blast-2023-07-01/db/nt
 
-In the script: make sure to put ‘/nt’ at the end of the blast database path for blastn and ‘/nr’ for blastp
-chmod +x * 
-RAM allocation
+
+> In the script: make sure to put ‘/nt’ at the end of the blast database path for blastn and ‘/nr’ for blastp
+
+
+> chmod +x * 
+
+
+> RAM allocation
 
 
