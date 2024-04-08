@@ -1,5 +1,6 @@
 # **How to automatically download blastn database, run blastn, and extract blastn hit sequences?** <br />
 
+<br />
 
 ### **AUTHOR: Dr Asad Prodhan** https://asadprodhan.github.io/
 
@@ -13,6 +14,7 @@
 
 ### **Download or update blastn database using NCBI-supplied script**
 
+<br />
 
 ### **Using NCBI-supplied script**  
 
@@ -98,6 +100,8 @@ rm -r *.md5
 ```
 
 
+<br />
+
 
 ### **Using a bash script**  
 
@@ -128,7 +132,7 @@ Figure 1: Blastn database nt files.
 
 
 
-- Put the **metadata.tsv** file and the following **blastn script** in the directory where you want to download the blastn database
+- Put the *metadata.tsv* file and the following ***blastn script*** in the directory where you want to download the blastn database
 
 
 - Check the file format as follows:
@@ -162,6 +166,8 @@ Run the following command to make the files executable
 chmod +x *
 ```
   
+
+<br />
 
 
 ### **Bash script to download blastn database automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
@@ -221,6 +227,9 @@ done < ${metadata}
 ```
 for file in *.tar.gz; do tar -xvzf "$file"; done
 ```
+
+
+<br />
 
 
 ### **Run blastn**
@@ -283,11 +292,15 @@ fi
 > The higher the bit-score, the better the sequence similarity
 
 
+<br />
+
+
 ### **Extract sequences for blastn hits**
 
 
-### **Bash script to extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
+<br />
 
+### **Bash script to extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
 
 
 ```
@@ -365,10 +378,17 @@ See the screenshot below:
 Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 </p>
 
+
+<br />
+
+
 <br />
 
 
 ### **Common blastn errors and solutions**
+
+
+<br />
 
 
 **How to resolve the Blastn database error ‘No alias or index file found’?**
@@ -407,6 +427,7 @@ This error might be resolved by adjusting the script as follows:
  > https://stackoverflow.com/questions/75465741/path-not-being-detected-by-nextflow
 
 
+
 **How to resolve the Blastn database error ‘Not a valid version 4 database’?**
 
 
@@ -434,6 +455,6 @@ This is blast version conflict. When you create a conda environment, it automati
 conda install -c bioconda blast
 ```
 
-
+<br />
 
 
