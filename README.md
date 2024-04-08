@@ -253,7 +253,7 @@ fi
 ### **Extract sequences for blastn hits**
 
 
-### **Bash script to Extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
+### **Bash script to extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
 
 
 
@@ -313,6 +313,26 @@ echo ""
 echo ""
 
 ```
+
+
+The bash script to extract blastn hit sequences is user-interactive. 
+It will ask for inputs, automatically process them, and produce a file containing the expected fasta sequences. 
+See the screenshot below:
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/blastn/blob/main/How_blastn_hits_sequences_extraction_auto_AP_script_works.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
+</p>
+
+<br />
 
 
 ### **Common errors and solutions**
