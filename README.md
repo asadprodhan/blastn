@@ -347,7 +347,7 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 <p align="center">
   <img 
     src="https://github.com/asadprodhan/blastn/blob/main/Blastn_database_error_No_alias_or_index_file_found.png"
- align="center" width=100% height=100% >   
+ align="center" >   
 </p>
 <p align = center>
 Figure 3: Blastn database error "No alias or index file found".
