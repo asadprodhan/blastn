@@ -326,7 +326,7 @@ See the screenshot below:
 <p align="center">
   <img 
     src="https://github.com/asadprodhan/blastn/blob/main/How_blastn_hits_sequences_extraction_auto_AP_script_works.PNG"
- align="center" width=100% height=100% >   
+ align="center" width=20% height=20% >   
 </p>
 <p align = center>
 Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
