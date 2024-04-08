@@ -132,7 +132,7 @@ Figure 1: Blastn database nt files.
 
 
 
-- Put the *metadata.tsv* file and the following ***blastn script*** in the directory where you want to download the blastn database
+- Put the ***metadata.tsv*** file and the following ***blastn script*** in the directory where you want to download the blastn database
 
 
 - Check the file format as follows:
