@@ -12,7 +12,7 @@
 
 
 
-### **Download or update blastn database using NCBI-supplied script**
+## **Download or update blastn database using NCBI-supplied script**
 
 <br />
 
@@ -232,7 +232,7 @@ for file in *.tar.gz; do tar -xvzf "$file"; done
 <br />
 
 
-### **Run blastn**
+## **Run blastn**
 
 
 ### **Blastn automated script** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
@@ -385,7 +385,7 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 <br />
 
 
-### **Common blastn errors and solutions**
+## **Common blastn errors and solutions**
 
 
 <br />
