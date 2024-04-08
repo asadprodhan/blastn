@@ -338,6 +338,44 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 ### **Common errors and solutions**
 
 
+**How to resolve the Blastn database error ‘No alias or index file found’?**
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/blastn/blob/main/Blastn_database_error_No_alias_or_index_file_found.png"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 3: Blastn database error "No alias or index file found".
+</p>
+
+<br />
+
+
+**Solution**
+
+
+This error might be resolved by adjusting the script as follows:
+
+
+- Add ‘nt’ at the end of the database path like /path/to/the/blastn/db/nt
+
+
+> See the path in the blastn script above. Likewise, ‘/nr’ for blastp
+
+  
+- If Blastn is your first or only process in the Nextflow script; then the process might take the path of the database. If not, then the database needs to be supplied as files. See the following reference. And the input channel should have path(db) in addition to the path(query_sequence)
+
+ 
+ > https://stackoverflow.com/questions/75465741/path-not-being-detected-by-nextflow
+
+
+
+
 
 **BLAST Database error: No alias or index file found for nucleotide database**
 
@@ -351,7 +389,6 @@ so, the complete database path will be as follows:
 /scratch/references/blastdb_update/blast-2023-07-01/db/nt
 
 
-> In the script: make sure to put ‘/nt’ at the end of the blast database path for blastn and ‘/nr’ for blastp
 
 
 > chmod +x * 
