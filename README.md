@@ -131,6 +131,39 @@ Figure 1: Blastn database nt files.
 - Put the **metadata.tsv** file and the following **blastn script** in the directory where you want to download the blastn database
 
 
+- Check the file format as follows:
+
+
+```
+file *
+```
+
+
+All files are required to be in UNIX format i.e., ASCII text only. Files written in Windows computer will have Windows format i.e., ASCII text, with CRLF line terminators. Convert these files into unix format by running the following command:
+
+
+```
+dos2unix *
+```
+
+
+- Check the files are executable
+
+
+```
+ls -l
+```
+
+
+Run the following command to make the files executable
+
+
+```
+chmod +x *
+```
+  
+
+
 ### **Bash script to download blastn database automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
 
 
@@ -335,7 +368,7 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 <br />
 
 
-### **Common errors and solutions**
+### **Common blastn errors and solutions**
 
 
 **How to resolve the Blastn database error ‘No alias or index file found’?**
@@ -365,35 +398,42 @@ This error might be resolved by adjusting the script as follows:
 - Add ‘nt’ at the end of the database path like /path/to/the/blastn/db/nt
 
 
-> See the path in the blastn script above. Likewise, ‘/nr’ for blastp
+> See the database path in the blastn script above. Likewise, ‘/nr’ for blastp
 
   
-- If Blastn is your first or only process in the Nextflow script; then the process might take the path of the database. If not, then the database needs to be supplied as files. See the following reference. And the input channel should have path(db) in addition to the path(query_sequence)
+- If Blastn is your first or only process in the Nextflow script; then the process might take the path of the database. If not, then the database needs to be supplied as files. See the following reference. And the input channel should have path(db) in addition to the path(query_sequence). See the blastn script above. 
 
  
  > https://stackoverflow.com/questions/75465741/path-not-being-detected-by-nextflow
 
 
+**How to resolve the Blastn database error ‘Not a valid version 4 database’?**
 
 
-
-**BLAST Database error: No alias or index file found for nucleotide database**
-
-
-Check the followings:
-Blast database location in Pawsey
-/scratch/references/blastdb_update/blast-2023-07-01
-Each database directory has a ‘db’ directory
-Within the ‘db’ directory, there are all the indexed files such as nhr nin etc
-so, the complete database path will be as follows:
-/scratch/references/blastdb_update/blast-2023-07-01/db/nt
+<br />
 
 
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/blastn/blob/main/Blastn_database_error_Not_a_valid_version_4_database.png"
+ align="center" >   
+</p>
+<p align = center>
+Figure 4: Blastn database error "Not a valid version 4 database".
+</p>
+
+<br />
 
 
-> chmod +x * 
+**Solution**
+
+This is blast version conflict. When you create a conda environment, it automatically installs blast v2.6 that can’t use the latest blast nr database. You need an undated version such as blast v2.15.0 to use the latest blast nr database which can be installed with the following command:
 
 
-> RAM allocation
+```
+conda install -c bioconda blast
+```
+
+
 
 
