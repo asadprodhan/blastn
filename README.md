@@ -295,7 +295,7 @@ fi
 <br />
 
 
-### **Extract sequences for blastn hits**
+## **Extract sequences for blastn hits**
 
 
 <br />
