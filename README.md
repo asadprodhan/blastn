@@ -11,6 +11,29 @@
 <br />
 
 
+### Content
+
+
+[01.  Blastn database download and update [NCBI tool]](https://github.com/asadprodhan/blastn#using-ncbi-supplied-script)
+
+
+[02.  Blastn database download and update [Bash script]](https://github.com/asadprodhan/blastn#using-a-bash-script)
+
+
+[03.  Blastn execution [User-interactive bash script]](https://github.com/asadprodhan/blastn#run-blastn)
+
+
+[04.  Blastn hit sequence extraction [User-interactive bash script]](https://github.com/asadprodhan/blastn#extract-sequences-for-blastn-hits)
+
+
+[05.  Blastn common errors and solutions](https://github.com/asadprodhan/blastn#common-blastn-errors-and-solutions)
+
+
+<br />
+
+
+<br />
+
 
 ## **Download or update blastn database using NCBI-supplied script**
 
