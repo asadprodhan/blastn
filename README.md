@@ -391,7 +391,7 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 <br />
 
 
-**How to resolve the Blastn database error ‘No alias or index file found’?**
+### **How to resolve the Blastn database error ‘No alias or index file found’?**
 
 
 <br />
@@ -409,7 +409,7 @@ Figure 3: Blastn database error "No alias or index file found".
 <br />
 
 
-**Solution**
+### **Solution**
 
 
 This error might be resolved by adjusting the script as follows:
@@ -428,7 +428,7 @@ This error might be resolved by adjusting the script as follows:
 
 
 
-**How to resolve the Blastn database error ‘Not a valid version 4 database’?**
+### **How to resolve the Blastn database error ‘Not a valid version 4 database’?**
 
 
 <br />
@@ -446,7 +446,7 @@ Figure 4: Blastn database error "Not a valid version 4 database".
 <br />
 
 
-**Solution**
+### **Solution**
 
 This is blast version conflict. When you create a conda environment, it automatically installs blast v2.6 that can’t use the latest blast nr database. You need an undated version such as blast v2.15.0 to use the latest blast nr database which can be installed with the following command:
 
