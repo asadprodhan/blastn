@@ -320,9 +320,6 @@ fi
 > Default query coverage percentage is 0%
 
 
-> However, you can modify the default parameters by running the following Nextflow script
-
-
 > The smaller the E-value, the better the match
 
 
@@ -333,6 +330,9 @@ fi
 
 
 <br />
+
+
+### **However, you can modify the default parameters by running the following Nextflow script**
 
 
 ### **Nextflow script to run blastn** [DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf) [DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
