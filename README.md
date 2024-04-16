@@ -114,6 +114,15 @@ run ./update_blastdb.pl --decompress nt
 > Download will automatically start
 
 
+> When download is completed, confirm that all the nt files have been downloaded. You can do that by comparing the file numbers at https://ftp.ncbi.nlm.nih.gov/blast/db/ and in your directory
+
+
+> If you don't have all the nt files in your directory, then you will get "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
+
+
+> If some of the files haven't been downloaded, you can download them by using the following bash script
+
+
 > You can delete the md5 files as follows:
 
 
