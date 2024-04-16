@@ -114,7 +114,7 @@ run ./update_blastdb.pl --decompress nt
 > Download will automatically start
 
 
-> When download is completed, confirm that all the nt files have been downloaded. You can do that by comparing the nt file numbers at https://ftp.ncbi.nlm.nih.gov/blast/db/ and in your directory
+> When the download is complete, confirm that all the nt files have been downloaded. You can do that by cross-checking nt file numbers between https://ftp.ncbi.nlm.nih.gov/blast/db/ and your directory
 
 
 > If you don't have all the nt files in your directory, then you will get "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
