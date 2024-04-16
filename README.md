@@ -344,10 +344,7 @@ fi
 ### **Nextflow script to run blastn** 
 
 
-[DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf) 
-
-
-[DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
+#### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/main.nf) 
 
 
 #### **Nextflow main.nf script**
@@ -425,6 +422,9 @@ workflow {
 
 
 #### **Nextflow nextflow.config script**
+
+
+#### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
 
 
 ```
