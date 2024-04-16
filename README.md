@@ -202,7 +202,10 @@ chmod +x *
 <br />
 
 
-### **Bash script to download blastn database automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
+### **Bash script to download blastn database automatically** 
+
+
+[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
 
 
 ```
@@ -267,7 +270,10 @@ for file in *.tar.gz; do tar -xvzf "$file"; done
 ## **Run blastn**
 
 
-### **Interactive bash script to run blastn** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
+### **Interactive bash script to run blastn** 
+
+
+[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
 
 
 
@@ -335,7 +341,13 @@ fi
 ### **However, you can modify the default parameters by running the following Nextflow script**
 
 
-### **Nextflow script to run blastn** [DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf) [DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
+### **Nextflow script to run blastn** 
+
+
+[DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf) 
+
+
+[DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
 
 
 #### **Nextflow main.nf script**
@@ -448,7 +460,10 @@ nextflow run main.nf --evalue=0.05 --identity='90' --qcov='0' --db="/path/to/bla
 
 <br />
 
-### **Bash script to extract sequences for blastn hits automatically** [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
+### **Bash script to extract sequences for blastn hits automatically** 
+
+
+[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
 
 
 ```
