@@ -314,6 +314,11 @@ fi
 ```
 
 
+> Default identity percentage is 90%
+
+
+> Default query coverage percentage is 0%
+
 
 > The smaller the E-value, the better the match
 
