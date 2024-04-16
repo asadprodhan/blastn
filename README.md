@@ -20,7 +20,7 @@
 [02.  Blastn database download and update [Automated by bash script]](https://github.com/asadprodhan/blastn#using-a-bash-script)
 
 
-[03.  Blastn execution [User-interactive bash script]](https://github.com/asadprodhan/blastn#run-blastn)
+[03.  Blastn execution [User-interactive bash script & Nextflow DSL2 script]](https://github.com/asadprodhan/blastn#run-blastn)
 
 
 [04.  Blastn hits sequence extraction [User-interactive bash script]](https://github.com/asadprodhan/blastn#extract-sequences-for-blastn-hits)
@@ -335,14 +335,10 @@ fi
 <br />
 
 
-### **Nextflow script to run blastn** 
+### **Nextflow script to run blastn** [DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf) [DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
 
 
-[DOWNLOAD main.nf](https://github.com/asadprodhan/blastn/blob/main/main.nf)
-[DOWNLOAD nextflow.config](https://github.com/asadprodhan/blastn/blob/main/nextflow.config)
-
-
-### **Nextflow main.nf script**
+#### **Nextflow main.nf script**
 
 
 ```
@@ -416,7 +412,7 @@ workflow {
 <br />
 
 
-### **Nextflow nextflow.config script**
+#### **Nextflow nextflow.config script**
 
 
 ```
@@ -433,6 +429,14 @@ singularity {
  envWhitelist = 'TERM'
 }
 
+```
+
+
+#### **command**
+
+
+```
+nextflow run main.nf --evalue=0.05 --identity='90' --qcov='0' --db="/path/to/blastn_database"
 ```
 
 
