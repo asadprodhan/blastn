@@ -495,3 +495,35 @@ conda install -c bioconda blast
 <br />
 
 
+### **How to resolve the Blastn database error "could not find nt.XXX alias in the reference alias"?**
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/blastn/blob/main/Blastn_database_error_could_not_find_ntXXX_alias_in_the_reference_alias.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 5: Blastn database error "could not find nt.XXX alias in the reference alias".
+</p>
+
+<br />
+
+
+### **Solution**
+
+
+> When you don't have all the nt files in your blastn database directory, then you will get this error "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
+>
+>
+> Cross-check the nt file numbers between https://ftp.ncbi.nlm.nih.gov/blast/db/ and your blastn database directory
+>
+>
+> You can download the missing nt files by using the above bash script 
+
+
+
+
