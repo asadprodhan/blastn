@@ -205,7 +205,7 @@ chmod +x *
 ### **Bash script to download blastn database automatically** 
 
 
-[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
+#### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_database_download_auto_AP.sh)
 
 
 ```
@@ -273,7 +273,7 @@ for file in *.tar.gz; do tar -xvzf "$file"; done
 ### **Interactive bash script to run blastn** 
 
 
-[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
+#### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_run_with_prompts_auto_AP.sh)
 
 
 
@@ -463,7 +463,7 @@ nextflow run main.nf --evalue=0.05 --identity='90' --qcov='0' --db="/path/to/bla
 ### **Bash script to extract sequences for blastn hits automatically** 
 
 
-[DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
+#### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/blastn_hits_sequences_extraction_auto_AP.sh)
 
 
 ```
