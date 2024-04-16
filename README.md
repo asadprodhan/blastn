@@ -120,7 +120,7 @@ run ./update_blastdb.pl --decompress nt
 > If you don't have all the nt files in your directory, then you will get "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
 
 
-> If some of the files haven't been downloaded, you can download them by using the following bash script
+> You can download the missing nt files by using the following bash script
 
 
 > When all the nt files are downloaded, you can delete the md5 files as follows:
