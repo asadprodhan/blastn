@@ -338,10 +338,19 @@ fi
 <br />
 
 
-### **However, you can modify the default parameters by running the following Nextflow script**
-
 
 ### **Nextflow script to run blastn** 
+
+
+**This script allows you for** 
+
+
+- modifying the default blastn parameters
+-
+- running blastn on remote computers
+-
+- automating blastn analysis for multiple samples
+
 
 
 #### [DOWNLOAD](https://github.com/asadprodhan/blastn/blob/main/main.nf) 
