@@ -652,9 +652,9 @@ conda install -c bioconda blast
 <p align="center">
   <img 
     src="https://github.com/asadprodhan/blastn/blob/main/Blastn_database_error_could_not_find_ntXXX_alias_in_the_reference_alias.PNG"
- align="center" >   
+ align="right" >   
 </p>
-<p align = center>
+<p align = right>
 Figure 5: Blastn database error "could not find nt.XXX alias in the reference alias".
 </p>
 
