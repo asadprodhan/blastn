@@ -590,6 +590,9 @@ This error might be resolved by adjusting the script as follows:
  > https://stackoverflow.com/questions/75465741/path-not-being-detected-by-nextflow
 
 
+<br />
+
+
 
 ### **How to resolve the Blastn database error ‘Not a valid version 4 database’?**
 
@@ -605,6 +608,7 @@ This error might be resolved by adjusting the script as follows:
 <p align = center>
 Figure 4: Blastn database error "Not a valid version 4 database".
 </p>
+
 
 <br />
 
@@ -654,6 +658,7 @@ conda install -c bioconda blast
 Figure 5: Blastn database error "could not find nt.XXX alias in the reference alias".
 </p>
 
+
 <br />
 
 
@@ -668,6 +673,11 @@ Figure 5: Blastn database error "could not find nt.XXX alias in the reference al
 >
 > You can download the missing nt files by using the above bash script 
 
+
+
+<br />
+
+<br />
 
 
 
