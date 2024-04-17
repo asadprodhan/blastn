@@ -346,9 +346,9 @@ fi
 
 
 - modifying the default blastn parameters
--
-- running blastn on remote computers
--
+
+- running blastn on both local and remote computers using containers (This removes the need of installing and updating the blastn software. However, you will need to install Nextflow and Singularity)
+
 - automating blastn analysis for multiple samples
 
 
