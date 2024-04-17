@@ -611,9 +611,16 @@ Figure 4: Blastn database error "Not a valid version 4 database".
 
 ### **Solution**
 
-This is blast version conflict. When you create a conda environment, it automatically installs blast v2.6 that can’t use the latest blast nr database. You need an undated version such as blast v2.15.0 to use the latest blast nr database.
+- This is a blast version conflict
 
-Check which version of blastn you have:
+
+- When you create a conda environment, it automatically installs blast v2.6 that can’t use the latest blast nr database
+
+
+- You need an undated version such as blast v2.15.0 to use the latest blast nr database.
+
+
+- Check which version of blastn you have:
 
 
 ```
@@ -621,7 +628,7 @@ blastn -version
 ```
 
 
-Update the latest version of blastn:
+- Update the latest version of blastn:
 
 
 ```
