@@ -665,13 +665,13 @@ Figure 5: Blastn database error "could not find nt.XXX alias in the reference al
 ### **Solution**
 
 
-> When you don't have all the nt files in your blastn database directory, then you will get this error "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
->
->
-> Cross-check the nt file numbers between https://ftp.ncbi.nlm.nih.gov/blast/db/ and your blastn database directory
->
->
-> You can download the missing nt files by using the above bash script 
+- When you don't have all the nt files in your blastn database directory, then you will get this error "BLAST Database error: Could not find volume or alias file nt.xxx in referenced alias file"
+
+
+- Cross-check the nt file numbers between https://ftp.ncbi.nlm.nih.gov/blast/db/ and your blastn database directory
+
+
+- You can download the missing nt files by using the above bash script 
 
 
 
