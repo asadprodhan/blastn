@@ -554,7 +554,7 @@ Figure 2: How blastn_hits_sequences_extraction_auto_AP script works.
 <br />
 
 
-### **How to resolve the Blastn database error ‘No alias or index file found’?**
+### **Q: How to resolve the Blastn database error ‘No alias or index file found’?**
 
 
 <br />
@@ -594,7 +594,7 @@ This error might be resolved by adjusting the script as follows:
 
 
 
-### **How to resolve the Blastn database error ‘Not a valid version 4 database’?**
+### **Q: How to resolve the Blastn database error ‘Not a valid version 4 database’?**
 
 
 <br />
@@ -643,7 +643,7 @@ conda install -c bioconda blast
 <br />
 
 
-### **How to resolve the Blastn database error "could not find nt.XXX alias in the reference alias"?**
+### **Q: How to resolve the Blastn database error "could not find nt.XXX alias in the reference alias"?**
 
 
 <br />
